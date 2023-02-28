@@ -1,0 +1,7 @@
+-> Git init (for create new empty repository)
+it will create.git (hidden file )
+
+-> git status 
+-> git config --global user.name "Y Naresh babu"
+-> git config --global user.Email "ynareshbabu1991@gmail.com"
+-> git config --list 
