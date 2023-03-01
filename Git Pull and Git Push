@@ -1,0 +1,22 @@
+To clone the git repository
+
+-> git clone (paste repository link)
+   Then you can edit or change the file data
+
+-> git add .
+-> git commit -m "changes made"
+-> git push origin master
+   Give GitHub username and password
+-> git log (fir commit ID)
+
+To Git Pull
+
+-> git pull (repository link)
+   Open ur file and edit or change data
+
+-> git status
+-> gut add .
+-> git commit -m "made changes"
+-> git add origin master (paste GitHub repo url again) 
+-> git remote -v 
+-> git push -u master 
