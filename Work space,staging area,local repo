@@ -1,0 +1,36 @@
+WORK SPACE 
+
+it will show in red colour font (untracked files)
+this is file creating area 
+-> touch file1 
+-> git status 
+
+STAGING AREA/INDEX 
+
+-> git status 
+
+we can see the files in green colour and (Changes to be committed) 
+-> git add. 
+-> git status 
+
+LOCAL REPO 
+
+
+-> git commit -m "test commit" file name 
+-> git log 
+
+To see the files and thair data for that 
+-> git show commitID 
+
+To revert a commit from index area/ staging area from work space 
+-> git reset HEAD file name 
+-> git reset HEAD file1 
+
+To index/Staging area from Local repo 
+-> git reset --soft commitID ( you should select befor commit ID) 
+
+To Work space from local repo (directly)
+-> git reset --mixed commitID (before commitID) 
+
+To delete commitID and Files 
+-> git reset --Hard commitID (you should select before commitID)
