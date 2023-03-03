@@ -19,4 +19,5 @@ To Git Pull
 -> git commit -m "made changes"
 -> git add origin master (paste GitHub repo url again) 
 -> git remote -v 
--> git push -u master 
+-> git push -u master
+-> 
