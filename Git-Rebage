@@ -1,0 +1,43 @@
+To create new branch
+
+-> git branch dev or feature
+
+To see the branch 
+
+-> git log --oneline
+
+For into the master
+
+-> git checkout master
+  
+-> git log --oneline
+
+  It will show the branch details
+  Create a new file and commit it 
+  For example
+-> vi rebase.sh
+
+-> git add .
+
+-> git commit -m "add new code" .
+
+-> git log --oneline
+
+In to feature branch or Dev
+
+-> git checkout feature
+
+-> git log --oneline
+
+  Here we can't see the commits which we done in maste
+If you want to apply those commits to the feature branch we have to use cammand called git rebase
+
+-> git rebase master
+
+-> git log --oneline
+
+We can see here commits which we already commits from maste
+
+-> git merge feature
+
+   Merge already done
