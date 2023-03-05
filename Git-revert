@@ -1,0 +1,20 @@
+-> git clone (paste git URL)
+    You can edit or add text to the file
+
+- > git add .
+
+-> git commit -m "changes done"
+
+-> git push or git push -u origin main
+    You have to give GitHub username and password
+
+    If you want to revert that commit for that
+
+-> git log
+    Copy the commit ID
+
+-> git revert (paste commit ID)
+   Review and commit 
+   The revert has been done successfully
+
+-> git push -u origin main
